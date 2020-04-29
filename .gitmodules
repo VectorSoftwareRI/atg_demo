@@ -5,5 +5,5 @@
 	path = s2n_demo
 	url = https://github.com/VectorSoftwareRI/atg_s2n_demo_vcast.git
 [submodule "scripts"]
-	path = scripts
+	path = atg_scripts
 	url = https://github.com/VectorSoftwareRI/atg_support_scripts.git
