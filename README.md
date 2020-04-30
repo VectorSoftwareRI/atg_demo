@@ -37,7 +37,7 @@ Prior to starting, we recommend you execute the dependency checker to ensure tha
 
 The logic for executing VectorCAST/ATG in a server workflow is found in the `git` submodule [`atg_scripts`](atg_scripts). 
 
-**Prior to starting, you must ensure you have all of the dependencies for these scripts.** We refer you to the [support scripts README.md](atg_scripts/README.md).
+**Prior to starting, you must ensure you have all of the dependencies for these scripts.** We refer you to the [support scripts README.md](https://github.com/VectorSoftwareRI/atg_support_scripts/blob/master/README.md).
 
 ## Demos
 
