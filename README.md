@@ -5,7 +5,7 @@ This repository collects together all of the necessary files to demonstrate how 
 **Importantly** if you are an 'end-user' of VectorCAST/ATG these examples are likely not to be relevant to you. VectorCAST's ATG technology can be used directly from either the VectorCAST/GUI or via `clicast`:
 
 ```bash
-$VECTORCAST_DIR/clicast -e <env> TOols AUTO_Atg_test_generation <outputfile>
+$VECTORCAST_DIR/clicast -lc -e <env> [-u <unit> [-s <sub>]] TOols AUTO_Atg_test_generation <outputfile>
 ```
 
 If you require help or assistance with using VectorCAST or VectorCAST/ATG, we recommend you [contact Vector's support](mailto:support@vector.com).
@@ -15,7 +15,10 @@ If you require help or assistance with using VectorCAST or VectorCAST/ATG, we re
 This repository uses `git` submodules to bring the complete demo together, to initialise this demo, please run the following:
 
 ```bash
-https://github.com/VectorSoftwareRI/atg_demo.git
+# clone this repository
+git clone https://github.com/VectorSoftwareRI/atg_demo.git
+
+# obtain all of the submodules
 git submodule update --init --recursive
 ```
 
@@ -26,6 +29,7 @@ These demos have been prepared using [CentOS 8](https://www.centos.org/download/
 Prior to starting, we recommend you execute the dependency checker to ensure that your prerequisites match:
 
 ```bash
+# Run the dependency checker
 ./atg_scripts/check_deps.sh
 ```
 
