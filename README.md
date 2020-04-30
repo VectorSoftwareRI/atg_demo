@@ -18,6 +18,9 @@ This repository uses `git` submodules to bring the complete demo together, to in
 # clone this repository
 git clone https://github.com/VectorSoftwareRI/atg_demo.git
 
+# enter the clone
+cd atg_demo
+
 # obtain all of the submodules
 git submodule update --init --recursive
 ```
