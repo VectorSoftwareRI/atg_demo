@@ -42,6 +42,13 @@ The logic for executing VectorCAST/ATG in a server workflow is found in the `git
 
 **Prior to starting, you must ensure you have all of the dependencies for these scripts.** We refer you to the [support scripts README.md](https://github.com/VectorSoftwareRI/atg_support_scripts/blob/master/README.md).
 
+Before continuing, please make sure that you have run:
+
+```bash
+# Setup the venv
+./atg_scripts/setup_venv.sh
+```
+
 ## Demos
 
 We have included two "pre-configured" demos, with both source tress and VectorCAST/Manage projects:
