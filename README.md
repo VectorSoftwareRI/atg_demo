@@ -32,8 +32,8 @@ These demos have been prepared using [CentOS 8](https://www.centos.org/download/
 Prior to starting, we recommend you execute the dependency checker to ensure that your prerequisites match:
 
 ```bash
-# Run the dependency checker
-./atg_scripts/check_deps.sh
+# Run the dependency checker (without checking a Manage project)
+./atg_scripts/check_deps.sh -b
 ```
 
 ## Server scripts
