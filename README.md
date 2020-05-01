@@ -1,6 +1,6 @@
 # ATG *server workflow* demo
 
-This repository collects together all of the necessary files to demonstrate how to deploy/use VectorCAST/ATG in a *server workflow*.
+This repository collects together all of the necessary files to demonstrate how to deploy/use VectorCAST/ATG in a _server workflow_ (e.g., as part of a continuous integration system such as Jenkins).
 
 **Importantly** if you are an 'end-user' of VectorCAST/ATG these examples are likely not to be relevant to you. VectorCAST's ATG technology can be used directly from either the VectorCAST/GUI or via `clicast`:
 
