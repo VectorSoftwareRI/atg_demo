@@ -1,5 +1,37 @@
 # ATG *server workflow* demo
 
+## For the very impatient
+
+If you are very impatient, these steps run the demo for the full example:
+
+```bash
+# Clean-up (in case you have this already)
+rm -rf atg_demo
+
+# Clone this repo
+git clone https://github.com/VectorSoftwareRI/atg_demo.git
+
+# Enter the repo
+cd atg_demo
+
+# Clone the submodules
+git submodule update --init --recursive
+
+# Check dependencies
+./atg_scripts/check_deps.sh -b
+
+# Build the venv
+./atg_scripts/setup_venv.sh
+
+# Activate it
+source atg_scripts/venv/bin/activate
+
+# Run the small demo
+./atg_scripts/atg_main.py -p ./small_demo/atg_configuration/small.py --verbose=True
+```
+
+## About this repo?
+
 This repository collects together all of the necessary files to demonstrate how to deploy/use VectorCAST/ATG in a _server workflow_ (e.g., as part of a continuous integration system such as Jenkins).
 
 **Importantly** if you are an 'end-user' of VectorCAST/ATG these examples are likely not to be relevant to you. VectorCAST's ATG technology can be used directly from either the VectorCAST/GUI or via `clicast`:
